@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-utils-musmanbinyounas"
+version = "0.1.0"
+description = "A utility package for ML pipelines"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "scikit-learn>=1.0",
+    "pymongo>=4.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/musmanbinyounas-boop/ml-utils"
