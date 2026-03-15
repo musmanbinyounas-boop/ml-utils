@@ -22,16 +22,7 @@ jobs:
         run: pytest tests/ -v
 ```
 
-6. Save the file with `Ctrl+S`
-
----
 
 ## Step 4 — Push the File to GitHub
 
-1. Press `Ctrl+Shift+G` to open Source Control
-2. You should see `.github/workflows/ci.yml` listed under **Changes**
-3. Click the **+** next to Changes to stage everything
-4. Type this commit message:
-```
-Add CI workflow
 
