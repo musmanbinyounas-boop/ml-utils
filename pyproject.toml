@@ -7,7 +7,7 @@ name = "ml-utils-musmanbinyounas"
 version = "0.1.0"
 description = "A utility package for ML pipelines"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.9"
 dependencies = [
     "scikit-learn>=1.0",
@@ -16,3 +16,6 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/musmanbinyounas-boop/ml-utils"
+
+[tool.setuptools.packages.find]
+where = ["src"]
